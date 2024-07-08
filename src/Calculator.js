@@ -97,7 +97,7 @@ function Calculator() {
                     <p className="text-right text-stone-500 mt-8">{operation? operand + operation: ''}</p>
                 </div>
                 <div className="w-full px-2" >
-                    <p className=" text-right text-6xl font-semibold ">{display}</p>
+                    <p className=" text-right text-5xl font-semibold ">{display}</p>
                 </div>
                 <div className="grid grid-cols-4 w-full h-80 grid-rows-6 gap-1 relative top-12">
                     {buttons}
